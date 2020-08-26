@@ -1,13 +1,17 @@
 import React from 'react';
 import { GlobalStyles } from './styles/global'
 
-import HomePage from './pages/HomePage'
+import UserAuth from './components/UserAuth'
+import ThemeToggler from './components/ThemeToggler'
+import PokeData from './components/PokeData'
 
 const App = () => {
   return (
     <div>
       <GlobalStyles />
-      <HomePage />
+      <ThemeToggler />
+      <UserAuth />
+      <PokeData />
     </div>
   )
 }
